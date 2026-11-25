@@ -54,28 +54,28 @@ export const giftConfig: GiftConfig = {
   memories: [
     {
       id: "mem-1",
-      image: "/memories/mem-1.jpg",
+      image: "./memories/mem-1.jpg",
       caption: "Yo First Baby Pic",
       date: "15/12/2006",
       rotation: -3
     },
     {
       id: "mem-2",
-      image: "/memories/mem-2.jpg",
+      image: "./memories/mem-2.jpg",
       caption: "Our First Hangout",
       date: "18/07/2025",
       rotation: 2
     },
     {
       id: "mem-3",
-      image: "/memories/mem-3.jpg",
+      image: "./memories/mem-3.jpg",
       caption: "Our Last Pic in School wid these mfs",
       date: "27/06/2026",
       rotation: -2
     },
     {
       id: "mem-4",
-      image: "/memories/mem-4.jpg",
+      image: "./memories/mem-4.jpg",
       caption: "Our Last Pic",
       date: "1/07/2026",
       rotation: 4
@@ -84,7 +84,7 @@ export const giftConfig: GiftConfig = {
 
   // 4. Audio settings
   audio: {
-    backgroundMusicUrl: "/audio/bgm.m4a",
+    backgroundMusicUrl: "./audio/bgm.m4a",
     backgroundMusicVolume: 0.5,
     soundEffectsEnabled: true
   },
@@ -92,7 +92,7 @@ export const giftConfig: GiftConfig = {
   // 5. Outer Background (animated ambient orbs by default, or set type: 'image' / 'video' with a file in public/background/)
   background: {
     type: 'image',
-    url: '/background/bg.jpg',
+    url: './background/bg.jpg',
     blurPx: 1,
     dimOpacity: 0.25
   }
